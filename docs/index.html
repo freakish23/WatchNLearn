@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Learnly — YouTube Learning Overlay (Demo)</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <img src="logo.png" alt="Learnly logo" class="logo">
+        <div>
+          <h1>Learnly</h1>
+          <p class="tagline">Micro-lessons inside YouTube — quizzes, reflections, sliders & budgets</p>
+        </div>
+      </div>
+      <nav class="top-actions">
+        <a class="btn" href="./youtube-overlay-extension-branded.zip" download>Download demo ZIP</a>
+        <a class="btn ghost" href="https://github.com/yourusername/youtube-learning-overlay/releases" target="_blank" rel="noopener">Releases</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero card">
+      <div class="hero-left">
+        <h2>Try the demo extension</h2>
+        <p>Install the extension (developer mode) or download the ZIP from Releases. Then open a YouTube video and watch for the overlay at the specified timestamps.</p>
+        <ul class="quick-list">
+          <li>Full instructions in the repository README</li>
+          <li>Data is stored locally in the browser</li>
+          <li>Works best with full `watch?v=` YouTube URLs</li>
+        </ul>
+      </div>
+      <div class="hero-right">
+        <img src="screenshot-1.png" alt="Overlay screenshot" class="hero-shot">
+      </div>
+    </section>
+
+    <section class="how card">
+      <h3>How to test</h3>
+      <ol>
+        <li>Download and unzip the demo build from Releases (or use the Download button above).</li>
+        <li>Open Chrome → <code>chrome://extensions/</code> → enable Developer mode → Load unpacked → choose the unzipped folder.</li>
+        <li>Open one of the demo videos and wait for the overlay to appear at the timestamps listed below.</li>
+      </ol>
+    </section>
+
+    <section class="videos card">
+      <h3>Demo videos</h3>
+      <ul>
+        <li><a href="https://www.youtube.com/watch?v=uorrlWJ23Mg" target="_blank" rel="noopener">Opportunity Cost — demo (60s, 120s, 180s, 240s)</a></li>
+        <li><a href="https://www.youtube.com/watch?v=B9MPklfyRHI" target="_blank" rel="noopener">Supply & Demand — demo (45s, 120s, 180s)</a></li>
+      </ul>
+    </section>
+
+    <section class="screens card">
+      <h3>Screenshots</h3>
+      <div class="shots">
+        <img src="screenshot-1.png" alt="Overlay screenshot 1">
+        <img src="screenshot-2.png" alt="Overlay screenshot 2">
+      </div>
+      <p class="small muted">Replace the placeholders above with real screenshots of the extension in action for best conversion.</p>
+    </section>
+
+    <section class="notes card">
+      <h3>Notes for testers</h3>
+      <ul>
+        <li>Use full YouTube links (not shortened `youtu.be`) so the content script matches correctly.</li>
+        <li>If the overlay doesn't appear, open DevTools and look for `[YT-Overlay]` logs in the page console and `[Overlay UI]` logs in the iframe console.</li>
+        <li>The demo stores responses locally in Chrome storage, nothing is sent to any server.</li>
+      </ul>
+    </section>
+
+    <footer class="card footer">
+      <div class="footer-inner">
+        <div>
+          <small>Built with ♥ by Learnly — demo build</small>
+        </div>
+        <div class="footer-links">
+          <a href="https://github.com/yourusername/youtube-learning-overlay" target="_blank" rel="noopener">Repository</a>
+          <a href="https://github.com/yourusername/youtube-learning-overlay/releases" target="_blank" rel="noopener">Releases</a>
+        </div>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
