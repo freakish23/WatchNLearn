@@ -1,4 +1,4 @@
-# 🎬 YouTube Learning Overlay (Branded Demo)
+# 🎬 YouTube WatchNLearn (MVP Demo)
 
 A Chrome Extension that pauses YouTube videos at key timestamps and shows **interactive learning activities** — quizzes, reflections, sliders, and budget allocations — right inside the video player.
 
@@ -16,7 +16,7 @@ A Chrome Extension that pauses YouTube videos at key timestamps and shows **inte
 ## 🚀 Getting Started
 
 ### 1. Download the demo build
-👉 [Download youtube-overlay-extension-branded.zip](https://github.com/yourusername/youtube-learning-overlay/releases/latest/download/youtube-overlay-extension-branded.zip)
+👉 [Download youtube-overlay-extension-branded.zip](https://github.com/freakish23/WatchNLearn)
 
 ### 2. Load the extension in Chrome
 1. Unzip the downloaded file.  
@@ -33,3 +33,39 @@ The video will pause automatically at checkpoints and display an overlay activit
 ---
 
 ## 📂 Project Structure
+youtube-overlay-extension-branded/
+│── manifest.json # Extension manifest (MV3)
+│── content.js # Content script, injects overlay + monitors video
+│── overlay.html # Overlay container UI
+│── overlay-ui.js # Overlay logic & activity renderers
+│── styles.css # Local CSS styling
+│── activities.json # Activity definitions (timestamps, prompts, options)
+│── logo.png # Placeholder logo (swap with your brand)
+│── background.js # Minimal service worker
+
+
+
+---
+
+## 🛠 Customization
+- **Add new activities** → edit `activities.json`  
+- **Change branding** → replace `logo.png` and tweak `styles.css`  
+- **Add activity types** → extend `overlay-ui.js`  
+
+---
+
+## 🧪 Demo Screenshots
+*(Replace with actual screenshots from your overlay)*
+<img width="1440" height="699" alt="Screenshot 2025-09-05 at 6 37 02 PM" src="https://github.com/user-attachments/assets/fc63ea62-0c3b-4811-84ae-a820ca2eafbb" />
+
+---
+
+## 🔒 Privacy
+- All data is stored **locally in Chrome storage**.  
+- No data is sent to external servers.  
+
+---
+
+## 📜 License
+MIT License © 2025 [bhargav]
+
