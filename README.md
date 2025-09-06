@@ -67,5 +67,5 @@ youtube-overlay-extension-branded/
 ---
 
 ## 📜 License
-MIT License © 2025 [bhargav]
+MIT License © 2025 [bhargavusadadiya@gmail.com]
 
